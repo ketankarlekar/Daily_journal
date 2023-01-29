@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=IBM+Plex+Mono:ital,wght@1,300&family=Noto+Sans+Cherokee&family=Noto+Sans+Hanunoo&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.navbar {
+  /* width: 1000px; */
+  display: flex;
+  border: 0px;
+  margin: auto;
+  padding: 1rem;
+  background-color: #c9e3f7;
+}
+
+.navbar-brand {
+  margin-left: 6rem;
+ font-size: 30px;
+ font-weight: bolder;
+ font-family: 'Permanent Marker', cursive;
+
+}
+.nav-link {
+  color: #13005a;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Noto Sans Cherokee", sans-serif;
+ 
+  cursor: pointer;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 1000px;
+  height: 700px;
+  margin: 0px 100px;
+}
+
+.footer {
+  bottom: 0px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+/* font-family: 'Noto Sans HK', sans-serif;
+font-family: 'Roboto', sans-serif; */
